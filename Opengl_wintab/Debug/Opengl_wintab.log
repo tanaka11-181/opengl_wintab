@@ -1,0 +1,26 @@
+﻿Build started 2014/11/30 18:29:52.
+     1>Project "c:\Users\hirokazu\documents\visual studio 2013\Projects\Opengl_wintab\Opengl_wintab\Opengl_wintab.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\hirokazu\documents\visual studio 2013\Projects\Opengl_wintab\Debug\Opengl_wintab.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\hirokazu\documents\visual studio 2013\Projects\Opengl_wintab\Debug\Opengl_wintab.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\hirokazu\documents\visual studio 2013\Projects\Opengl_wintab\Debug\Opengl_wintab.lib" /MACHINE:X86 Debug\main.obj
+     1>main.obj : error LNK2019: unresolved external symbol __imp__glClear@4 referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol __imp__glDrawPixels@20 referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol __imp__glFlush@0 referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol __imp__glRasterPos2i@8 referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol __imp__glewInit referenced in function "bool __cdecl initGL(void)" (?initGL@@YA_NXZ)
+     1>main.obj : error LNK2019: unresolved external symbol __imp__glewIsSupported referenced in function "bool __cdecl initGL(void)" (?initGL@@YA_NXZ)
+     1>main.obj : error LNK2019: unresolved external symbol __imp__wglCreateContext@4 referenced in function "void __cdecl OnCreate(struct HWND__ *,struct HDC__ * &,struct HGLRC__ * &)" (?OnCreate@@YAXPAUHWND__@@AAPAUHDC__@@AAPAUHGLRC__@@@Z)
+     1>main.obj : error LNK2019: unresolved external symbol __imp__wglDeleteContext@4 referenced in function "void __cdecl OnDestroy(struct HWND__ *,struct HDC__ *,struct HGLRC__ *)" (?OnDestroy@@YAXPAUHWND__@@PAUHDC__@@PAUHGLRC__@@@Z)
+     1>main.obj : error LNK2019: unresolved external symbol __imp__wglMakeCurrent@8 referenced in function "void __cdecl OnCreate(struct HWND__ *,struct HDC__ * &,struct HGLRC__ * &)" (?OnCreate@@YAXPAUHWND__@@AAPAUHDC__@@AAPAUHGLRC__@@@Z)
+     1>main.obj : error LNK2019: unresolved external symbol "public: __thiscall CTablet::CTablet(void)" (??0CTablet@@QAE@XZ) referenced in function "void __cdecl `dynamic initializer for 'tablet''(void)" (??__Etablet@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol "public: __thiscall CTablet::~CTablet(void)" (??1CTablet@@QAE@XZ) referenced in function "void __cdecl `dynamic atexit destructor for 'tablet''(void)" (??__Ftablet@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol "public: int __thiscall CTablet::Init(struct HWND__ *)" (?Init@CTablet@@QAEHPAUHWND__@@@Z) referenced in function _main
+     1>main.obj : error LNK2019: unresolved external symbol "public: void __thiscall CTablet::GetSysPos(int,int,int *,int *)" (?GetSysPos@CTablet@@QAEXHHPAH0@Z) referenced in function "long __stdcall WindowProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WindowProc@@YGJPAUHWND__@@IIJ@Z)
+     1>c:\users\hirokazu\documents\visual studio 2013\Projects\Opengl_wintab\Debug\Opengl_wintab.exe : fatal error LNK1120: 13 unresolved externals
+     1>Done Building Project "c:\Users\hirokazu\documents\visual studio 2013\Projects\Opengl_wintab\Opengl_wintab\Opengl_wintab.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.47
